@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.calculatorContainer {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 350px;
+  background-color: gray;
+}
+input {
+  background-color: white;
+  height: 75px;
+  width: 342px;
+  font-size: 35px;
+}
+.btnContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 2px;
+}
+button {
+  background-color: white;
+  width: 75px;
+  height: 75px;
+  font-size: 35px;
+}
